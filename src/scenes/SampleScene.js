@@ -28,7 +28,7 @@ export default class SampleScene extends Phaser.Scene {
     }
 
     create() {
-        // this.platform = new Platform(this, this.centerX, this.height * .3, 100, 30, 0xFFEDDB)
+        this.add.text(this.centerX, this.height * .9, "Use '<' and '>' to move player").setOrigin(0.5)
         this.player = new Player(this, this.centerX, 50, 20, 20, 0xFFC15E)
         this.createPixels()
 
