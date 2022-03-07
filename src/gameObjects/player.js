@@ -15,6 +15,8 @@ export default class Player extends Phaser.GameObjects.Rectangle {
 
         scene.physics.add.existing(this)
         this.body.collideWorldBounds = true
+        this.body.onWorldBounds = true
+        this.body.setBounce(0.85)
         scene.add.existing(this)
     }
 }
