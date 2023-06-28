@@ -1,3 +1,3 @@
 # BreakPixel
 
-:rocket: [Live Demo](https://ozgurdevo.github.io/BreakPixel/ "Live Demo")
+:rocket: [Live Demo](https://ozgur-can.github.io/BreakPixel/ "Live Demo")
